@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+}
+
+#body-mobile {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.mobile-full-image {
+    width: 100%;
+    aspect-ratio: 1920/1080;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.mobile-full-image > img {
+    min-width: 100%;
+}
+
+.mobile-body-div {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+
+    margin-top: 50px;
+}
+a {
+    color: #00000070;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #000000bb;
+}
+
+
+.index-banner-image > img {
+    width: 100%;
+    opacity: 60%;
+    filter:blur(5px);
+    -webkit-filter: blur(5px);
+    position: absolute;
+    height: auto;
+    min-height: 100%;
+}
+
+.index-banner-image {
+    position: relative;
+}
+
+#index-banner-title {
+    left: 30px;
+    top: 30%;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    line-height: 1;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-family: 'Sofia Sans Condensed';
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 0.8;
+}
+
+#index-banner-title > span {
+    font-weight: 300;
+}

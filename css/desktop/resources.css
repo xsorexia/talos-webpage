@@ -1,0 +1,32 @@
+@import url('/css/desktop/common.css');
+
+.resource-description {
+    padding-bottom: 40px;
+}
+
+.engineering-note-link {
+    width: 100%;
+    margin-right: 30px;
+}
+
+.engineering-note-title {
+    font-family: 'Sofia Sans Condensed';
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.engineering-note-div {
+    background-color: rgba(237, 237, 237, 0.6);
+
+    padding: 25px;
+
+    width: calc(100% - 2 * 25px);
+    border-radius: 15px;
+    flex-direction: row;
+
+    margin-bottom: 15px;
+
+    align-items: center;
+}
+

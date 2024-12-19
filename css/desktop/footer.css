@@ -1,0 +1,35 @@
+#footer {
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #efefefb0;
+}
+
+#footer-logo-div {
+    height: 100px;
+    margin-left: 40px;
+}
+
+#footer-logo-div > img {
+    height: 100%;
+}
+
+#footer-link-div {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 60px;
+}
+
+.footer-links {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #00000097;
+}
+
+#footer-address-div {
+    margin-left: 60px;
+    margin-top: 20px;
+    color: #00000097;
+}

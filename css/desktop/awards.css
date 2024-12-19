@@ -1,0 +1,70 @@
+@import url('/css/desktop/common.css');
+
+.award-description {
+    padding-bottom: 40px;
+}
+
+#awards-div {
+    width: 100%;
+}
+
+.season-container {
+    background-color: rgba(237, 237, 237, 0.6);
+    display: flex;
+    padding: 25px;
+
+    width: calc(100% - 2 * 25px);
+    border-radius: 15px;
+    flex-direction: row;
+    gap: 30px;
+
+    margin-bottom: 15px;
+}
+
+.season-left {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.season-left-image {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 1920/1080;
+}
+
+.season-left-image > img {
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+}
+
+.season-right {
+    width: calc(100% - 300px - 30px);
+}
+
+.season-title {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-family: 'Sofia Sans Condensed';
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.season-title > span {
+    font-weight: 600;
+}
+
+.season-awards {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.season-description {
+    padding-bottom: 20px;
+}
+
