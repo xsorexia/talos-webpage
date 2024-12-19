@@ -21,6 +21,6 @@ jobs:
         key: ${{ secrets.LIGHTSAIL_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /path/to/your/website
+          cd /var/www/kros
           git pull origin main
           sudo systemctl reload nginx
