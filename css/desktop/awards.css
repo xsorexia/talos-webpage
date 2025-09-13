@@ -33,12 +33,15 @@
     border-radius: 10px;
     width: 100%;
     aspect-ratio: 1920/1080;
+    color:white;
 }
 
-.season-left-image > img {
+.season-left-image > img {  
     min-width: 100%;
     min-height: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center; 
 }
 
 .season-right {
